@@ -1,0 +1,280 @@
+body{
+	background-color: #595959;
+	height: 100%;
+	margin: 0%;
+}
+#topbar{
+	border-bottom: 1px solid gray;
+	min-width: 100%;
+	height: 80px;		
+}
+#rightbar{
+	border-left: 1px solid gray;
+	width: 100px;
+	height: 560px;
+	float: right;	
+	background-image: url("../img/BG1.png");
+	background-size: 150px;	
+}
+#leftbar{
+	border-right: 1px solid gray;
+	width: 200px;
+	height: 560px;
+	float: left;	
+	background-color: #4d4d4d;
+	position: relative;
+	overflow: auto;
+}
+#bottombar{
+	position: fixed;
+	border-top: 1px solid gray;	
+	width: 100%;
+	height: 20px;
+	background-color: black;
+	margin-top: 41%;
+	z-index: 200;
+}
+#centerbar{	
+	float: left;
+	width: 77.5%;
+	height: 560px;
+	background-image: url("../img/BG1.png");
+	background-size: 150px;	
+	position: relative;
+}
+#money{
+	float: right;
+	width: 15%;
+	height: 80%;
+	background-color: #595959;
+	margin: 5px 50px 0px 20px;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 5px;
+	display: block;
+	color: orange;
+}
+#money:hover{
+	color: white;
+	cursor: pointer;
+}
+#avatar{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	float: right;
+	background-color: #4d4d4d;
+}
+.avatar {
+	width: 60px;
+	height: 60px;
+	float: right;
+	margin-top: 7px;
+	border-radius: 50%;
+	border: 5px solid transparent;
+}
+#avatar:hover{
+	cursor: pointer;
+}
+.avatar:hover{	
+	border: 5px solid white;
+}
+.choose{
+	position: relative;
+	margin: 5px auto 5px auto;
+	width: 85px;
+	height: 70px;
+	border-radius: 10px;
+	text-align: center;	
+	color: white;
+	background-color: #4d4d4d;	
+}
+.button{
+	width: 90px;
+	height: 90px;
+	margin: 10px auto 10px auto;
+	background-color: #00cc00;
+	display: block;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	padding-top: 60%;
+}
+.button:hover {
+	background-color: #1aff1a;	
+	cursor: pointer;
+}
+#mySell:hover{
+	background-color: #ff3333;
+	cursor: pointer;	
+}
+#mySell{
+	background-color: red;	
+}
+#logo{
+	width: 150px;
+	height: 70px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+#logo:hover{
+	background-color: #4d4d4d;
+	cursor: pointer;
+}
+#company{
+	width: 190px;
+	height: 70px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 40px;
+}
+
+#hist{
+	margin: 5px auto;
+	display: block;
+	width: 130px;
+	height: 40px;
+	font-size: 30px;
+	background-color: #595959;	
+	color: white;
+	border-bottom: 1px solid gray;
+}
+#amt{
+	width: 65px;
+	position: relative;
+	top: 10px;	
+	border: 0px;
+	background-color: #595959;
+	color: white;
+}
+#lever{
+	width: 60px;
+	position: relative;
+	top: 10%;	
+	border: 0px;
+	background-color: #595959;
+	color: white;
+}
+#lever:hover{
+	cursor: pointer;
+}
+td{
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+table{
+	display: block;
+}
+table:hover{
+	cursor: pointer;
+}
+#setTL{
+	position: relative;
+	top: 10%;
+	left: 3%;
+	text-align: center;
+	display: block;	
+	width: 90%;
+}
+#ruler{		
+	width: 100%;
+	height: 100%;	
+}
+#moneyalert{
+	width: 200px;
+	height: 50px;
+	background-color: #595959;
+	border: 1px solid black;
+	text-align: center;
+	position: fixed;
+	z-index: 2;
+	left: 81%;
+	top: 10%;
+	visibility: hidden;
+}
+#setTLalert{
+	width: 100px;
+	height: 50px;
+	background-color: #595959;
+	border: 1px solid black;
+	text-align: center;
+	position: fixed;
+	z-index: 2;
+	left: 85%;
+	top: 36%;
+	visibility: visible;
+	padding-top: 10px;
+	visibility: hidden;
+}
+.takestop{	
+	width: 50px;
+	margin-left: 10px;	
+}
+.stopin{
+	margin-left: 12px;
+	margin-top: 2px;
+}
+#dot{
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+	position:absolute; 
+	top:20px; 
+	left:30px;
+}
+.centerText{
+	position: relative;
+	margin: 5px auto 5px auto;
+	width: 85px;
+	height: 30px;
+	border-radius: 10px;
+	text-align: center;	
+	color: white;
+	background-color: #4d4d4d;
+	padding-top: 10%;
+	margin-top: 20%;
+}
+.centerText:hover {
+	background-color: #808080;	
+	cursor: pointer;
+}
+.historyForm{
+	text-align: center;
+	color: white;
+	margin-left: 13%;
+	display: block;
+}
+.historySingle{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 5px;
+}
+#leftbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#leftbar::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#leftbar::-webkit-scrollbar-thumb
+{
+	background-color: gray;
+}
+.secretVal{	
+	display: none;
+}
+.centerID{
+	text-align: center;
+	position: relative;
+	top: 32%;
+	left: 22%;
+	color: white;
+}

@@ -1,0 +1,45 @@
+body{
+	background-image: url("../img/BG1.png");
+	background-size: 200px;
+}
+#form{
+	height: 100%;
+	width: 40%;
+	background-color: #4d4d4d;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	text-align: center;
+}
+table{
+	margin: 0px auto;
+	width: 70%;
+	height: 100%;
+	text-align: left;
+}
+#lable{
+	font-size: 50px;
+	position: relative;
+	margin-left: 42%;
+	margin-top: 15%;
+	margin-bottom: 1%;
+	color: white;
+}
+#button{
+	text-align: center;
+}
+#signup{
+	text-align: center;
+}
+a{
+	color: white;
+}
+a:hover {
+	color: #ff3300;
+}
+.secretVal{
+	display: none;
+}

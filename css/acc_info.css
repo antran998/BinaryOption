@@ -1,0 +1,50 @@
+body{
+	background-image: url("../img/BG1.png");
+	background-size: 200px;
+}
+#form{
+	height: 100%;
+	width: 40%;
+	background-color:  #4d4d4d;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	text-align: center;
+}
+table{
+	margin: 5px auto;
+	width: 70%;
+	height: 100%;
+	text-align: left;
+}
+#avatar{
+	border-radius: 50%;
+	background-color: #4d4d4d;
+	width: 150px;
+	height: 150px;
+	margin: 0px auto;
+}
+.align-right{
+	text-align: right;
+	padding-right: 2%;
+}
+.align-left{
+	text-align: left;
+}
+td{
+	width: 50%;
+}
+.centerID{
+	position: relative;
+	left: 40%;
+	top: 40%;
+	color: white;
+	text-align: center;
+}
+
+
+
+
