@@ -3,7 +3,7 @@
 	include 'conn.php';
 
 	$sendObj = json_decode($_POST['sendObj']);
-	
+	console.log($sendObj);
 	if(isset($sendObj->depositeAmount)){
 		$userID = $_COOKIE['empty'];
 		$amount = $sendObj->depositeAmount;
